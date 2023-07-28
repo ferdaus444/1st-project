@@ -1,12 +1,76 @@
+body{
+    font-family: 'Roboto';
+    margin: 0px;
+    font-color: 
+}
+.wellcome {
+    font-size: 40px;
+    font-weight: 300;
 
+}
 .topic-1{
-
+background-image: url(photos/top-banner.png);
+background-repeat: no-repeat;
+}
+section{
+    height: 420px;
 }
 .name {
     color: orange;
 }
 .half-width{
     width: 40%;
-    height: auto;
 
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.half-width img {
+    width: 100%;
+}
+.link {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.topic-2 {
+    background-image: url(photos/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+.experiences {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+
+}
+    #full{
+        border-left: 8px solid;
+        border-image: linear-gradient(180deg, lightsalmon, tomato);
+        border-image-slice: 1;
+    }
+    #baby{
+        border-left: 8px solid;
+        border-image: linear-gradient(180deg, blue, cyan );
+        border-image-slice: 1;
+    }
+    .topic-3 {
+        background-image: url(photos/exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 80px;
+    }
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+    color: grey;
+    font-size: 25px;
+    font-weight: 700;
 }
