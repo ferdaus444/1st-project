@@ -29,6 +29,13 @@ section{
 .half-width img {
     width: 100%;
 }
+p{
+    color: gray;
+}
+.link:hover{
+    background-image: linear-gradient(90deg, magenta, rgb(150, 37, 255));
+    color: Chartreuse;
+}
 .link {
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
